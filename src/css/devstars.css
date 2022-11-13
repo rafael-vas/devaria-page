@@ -1,0 +1,30 @@
+/* Estilos relacionados à pagina "DevStars" */
+
+main .iframe-section > div iframe {
+    width: 80%;
+    height: 400px;
+    margin: 30px 10%;
+    border: 1px solid #25cbd3;
+}
+
+main .challenge-table-section table,
+main .comment-table-section table {
+    margin: 10px auto;
+    border: 1px solid #25cbd3;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgba(255, 255, 255, .04);
+}
+
+main .challenge-table-section table tr th,
+main .challenge-table-section table tr td,
+main .comment-table-section table tr th,
+main .comment-table-section table tr td{
+    padding: 10px;
+    text-align: center;
+}
+
+main .sub-title {
+    margin-bottom: 30px;
+}
+

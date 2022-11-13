@@ -1,0 +1,130 @@
+/* Estilos relacionados à pagina "Fale Conosco" */
+
+.sub-title {
+    margin: 0 20px;
+}
+
+main .contact-form > div {
+    margin: 15px 0;
+}
+
+main .contact-form label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+main .contact-form input,
+main .contact-form select,
+main .contact-form textarea {
+    background-color: rgba(255, 255, 255, .75);
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px 15px;
+    outline: none;
+    transition: all .25s;
+}
+
+main .contact-form input:focus,
+main .contact-form select:focus {
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+main .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+main .contact-form select {
+    width: 100%;
+}
+
+main .contact-form textarea {
+    resize: none;
+    padding-top: 15px;
+}
+
+main .contact-form > div input[type="radio"],
+main .contact-form > div input[type="checkbox"] {
+    width: 25px;
+}
+
+
+main .contact-form > div.checkbox-input label {
+    display: inline;
+    color: #3bd42d;
+}
+
+main .contact-form > div:nth-child(4) span {
+    color: #3bd42d;
+}
+
+main .contact-form > div input[type="submit"],
+main .contact-form > div input[type="reset"] {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    opacity: .8;
+    font-size: 1.1em;
+}
+
+main .contact-form > div input[type="submit"] {
+    background-color: #3bd42d;
+    padding: 10px;
+    font-weight: 600;
+}
+
+main .contact-form > div input[type="reset"] {
+    background-color: #5e49ff;
+}
+
+main .contact-form > div input[type="submit"]:hover,
+main .contact-form > div input[type="reset"]:hover {
+    cursor: pointer;
+    scale: 1.025;
+    opacity: 1;
+}
+
+@media screen and (min-width: 992px) {
+    main .contact-form {
+        width: 60%;
+        border: 1px solid #25cbd3;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px auto;
+    }
+
+    main .contact-form input,
+    main .contact-form textarea {
+        width: 100%;
+    }
+
+    main .contact-form select {
+        width: 30%;
+    }
+
+    main .contact-form > div input[type="submit"],
+    main .contact-form > div input[type="reset"] {
+        width: auto;
+        padding: 10px;
+        opacity: .9;
+        transition: all 0.2s;
+    }
+
+    main .contact-form > div input[type="submit"]:hover,
+    main .contact-form > div input[type="reset"]:hover {
+        cursor: pointer;
+        scale: 1.025;
+        opacity: 1;
+    }
+
+    main .contact-form > div input[type="submit"] {
+        margin-right: 20px;
+    }
+
+}
