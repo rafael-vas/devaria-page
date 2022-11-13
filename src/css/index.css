@@ -1,3 +1,36 @@
-. cover-container figure img {
+.video-section div video {
     width: 100%;
+}
+
+.cover-container {
+    margin-bottom: 25px;
+}
+
+.video-section video, .cover-container figure img {
+    border-radius: 15px;
+}
+
+.cover-container figure img {
+    width: 100%;
+}
+
+main h3.title {
+    font-size: 1.2em;
+}   
+
+main section abbr {
+    color: #25cbd3;
+}
+
+@media screen and (min-width: 992px) {
+    main .cover-container, .video-section {
+        width: 45%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    main .azure-section blockquote {
+        width: 70%;
+        margin: auto;
+    }
 }

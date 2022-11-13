@@ -1,0 +1,23 @@
+footer {
+    text-align: center;
+    border-top: 1px solid #54398f;
+    width: 75%;
+    padding: 25px;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+footer section span:first-child {
+    color: #B09DED;
+}
+
+footer section span:last-child {
+    color: #21daeb;
+    transition: text .6s;
+}
+
+footer section span:last-child:hover {
+    color: #28bbc9;
+    cursor: pointer;
+    text-decoration: underline;
+}
